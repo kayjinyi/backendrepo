@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS coolgame;
+CREATE DATABASE coolgame;
