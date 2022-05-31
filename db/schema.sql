@@ -1,2 +1,4 @@
 DROP DATABASE IF EXISTS coolgame;
 CREATE DATABASE coolgame;
+
+-- SELECT * FROM user ORDER BY score DESC limit 5;
