@@ -23,6 +23,7 @@ User.init(
         isNumeric: true,
       },
     },
+    // gamename: DataTypes.STRING,
     date_created: {
       type: DataTypes.DATE,
       defaultValue: DataTypes.NOW,
@@ -31,7 +32,7 @@ User.init(
   {
    
     sequelize,
-    // timestamps: false,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: "User",

@@ -5,7 +5,7 @@ module.exports = {
     // this function should return only top ten scores. highest to lowest
     const userScores = await User.findAll({
           limit: 10,
-      order: [["score", "ASC"]],
+      order: [["score", "DESC"]],
     
     });
 
