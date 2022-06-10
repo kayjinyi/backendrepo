@@ -5,12 +5,24 @@ const seed = async ()=>{
     await sequelize.sync({force:true})
     const users = await User.bulkCreate([
         {
-            username:"nser2",
-            score: 100000
+            username:"Nolan",
+            score: 100
         },
         {
-            username:"user1",
-            score: 1
+            username:"Yi",
+            score: 80
+        },
+        {
+            username:"Surbhi",
+            score: 120
+        },
+        {
+            username:"Min",
+            score: 50
+        },
+        {
+            username:"Ester",
+            score: 20
         },
        
     ],{individualHooks:true})
