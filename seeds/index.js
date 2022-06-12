@@ -24,6 +24,11 @@ const seed = async ()=>{
             username:"Ester",
             score: 20
         },
+        {
+            username:"Sam",
+            score: 10
+        },
+
        
     ],{individualHooks:true})
     console.log(users);
